@@ -1,0 +1,40 @@
+body{
+    background-color: #2c2d30;
+}
+
+@font-face {
+    font-family: Exo-black;
+    src: url(/fonts/Exo-Black.ttf);
+}
+
+@media screen and (max-width: 1600px) and (max-height: 900px){
+
+    .home{
+        color: #ffff;
+        display: flex;
+        justify-content: left;
+        flex-direction: row;
+        font-family: Exo-black;
+    }
+
+    p{
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+    
+    .logo{
+        padding-left: 520px;
+        width: 80%;
+        max-width: 1080px;
+        margin: auto;
+    }
+
+    .banner{
+        padding-left: 200px;
+        
+    }
+
+    footer{
+        
+    }
+}
